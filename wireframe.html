@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Order form></title>
+    </head>
+    <body>
+        <h1>Order Form</h1>
+        <form action="/">
+            <label for="Yourname">Your Name</label>
+            <input type="text" value="" placeholder="Your Name" id="Yourname">
+            <br>
+            <br>
+
+            <label for="Youremail">Your E-mail</label>
+            <input type="text" value="" placeholder="Your E-mail" id="Youremail">
+            <br>
+            <br>
+
+            <p>Choose your product</p>
+            <input type="radio" name="Products" value="Product"><label>Product</label>
+            <input type="radio" name="Products" value="Product2"><label>Product2</label>
+            <input type="radio" name="Products" value="Product3"><label>Product3</label>
+            <br>
+            <br>
+           
+
+            <label for="Deliverydate">Delivery Date</label>
+            <input type="date" id="Deliverydate">
+            <br>
+            <br>
+
+            <label for="Address">Address</label>
+            <input type="text" value="" placeholder="Street Addres" id="Address">
+            <br>
+            <br>
+
+            <label>City</label>
+            
+            <select>
+                <option>---Select city---</option>
+                <option>City1</option>
+                <option>City2</option>
+                <option>City3</option>
+            </select>
+            <br>
+            <br>
+            <label>Region</label>
+
+            <select>
+                <option>---Select region---</option>
+                <option>Region1</option>
+                <option>Region2</option>
+                <option>Region3</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" checked="" id="notification"><label>Notify me by E-mail</label>
+            <br>
+            <br>
+            <textarea id="massage" placeholder="Your comment here"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Order">
+
+            
+        </form>
+    </body>
+</html>
